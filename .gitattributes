@@ -1,0 +1,4 @@
+# Mark lock files as generated so they are collapsed in PRs
+*.lock.yml linguist-generated=true
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
